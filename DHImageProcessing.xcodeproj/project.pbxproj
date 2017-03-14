@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4062806E1E77BE0200E2F51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4062806D1E77BE0200E2F51C /* main.m */; };
+		406280711E77BE0200E2F51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280701E77BE0200E2F51C /* AppDelegate.m */; };
+		406280741E77BE0200E2F51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280731E77BE0200E2F51C /* ViewController.m */; };
+		406280771E77BE0200E2F51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406280751E77BE0200E2F51C /* Main.storyboard */; };
+		406280791E77BE0200E2F51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406280781E77BE0200E2F51C /* Assets.xcassets */; };
+		4062807C1E77BE0200E2F51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4062807A1E77BE0200E2F51C /* LaunchScreen.storyboard */; };
+		406280871E77BE0200E2F51C /* DHImageProcessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280861E77BE0200E2F51C /* DHImageProcessingTests.m */; };
+		406280921E77BE0200E2F51C /* DHImageProcessingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280911E77BE0200E2F51C /* DHImageProcessingUITests.m */; };
+		406280A01E77C1F900E2F51C /* Objective-C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4062809F1E77C1F900E2F51C /* Objective-C.gitignore */; };
+		709E3F804B2774860ACBFD60 /* libPods-DHImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85616858E7DC605EE20D288 /* libPods-DHImageProcessing.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406280831E77BE0200E2F51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406280611E77BE0100E2F51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406280681E77BE0200E2F51C;
+			remoteInfo = DHImageProcessing;
+		};
+		4062808E1E77BE0200E2F51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406280611E77BE0100E2F51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406280681E77BE0200E2F51C;
+			remoteInfo = DHImageProcessing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		406280691E77BE0200E2F51C /* DHImageProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHImageProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4062806D1E77BE0200E2F51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4062806F1E77BE0200E2F51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		406280701E77BE0200E2F51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		406280721E77BE0200E2F51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		406280731E77BE0200E2F51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		406280761E77BE0200E2F51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406280781E77BE0200E2F51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4062807B1E77BE0200E2F51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4062807D1E77BE0200E2F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406280821E77BE0200E2F51C /* DHImageProcessingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHImageProcessingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406280861E77BE0200E2F51C /* DHImageProcessingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHImageProcessingTests.m; sourceTree = "<group>"; };
+		406280881E77BE0200E2F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4062808D1E77BE0200E2F51C /* DHImageProcessingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHImageProcessingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406280911E77BE0200E2F51C /* DHImageProcessingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHImageProcessingUITests.m; sourceTree = "<group>"; };
+		406280931E77BE0200E2F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4062809F1E77C1F900E2F51C /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Objective-C.gitignore"; sourceTree = "<group>"; };
+		4502C02820206D05958FBF4E /* Pods-DHImageProcessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageProcessing.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing.release.xcconfig"; sourceTree = "<group>"; };
+		A8CC8C0DB0537C93021172D4 /* Pods-DHImageProcessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageProcessing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing.debug.xcconfig"; sourceTree = "<group>"; };
+		D85616858E7DC605EE20D288 /* libPods-DHImageProcessing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHImageProcessing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406280661E77BE0200E2F51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709E3F804B2774860ACBFD60 /* libPods-DHImageProcessing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062807F1E77BE0200E2F51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062808A1E77BE0200E2F51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304DC2A8F3EBA6C9B31CA361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85616858E7DC605EE20D288 /* libPods-DHImageProcessing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		406280601E77BE0100E2F51C = {
+			isa = PBXGroup;
+			children = (
+				4062809F1E77C1F900E2F51C /* Objective-C.gitignore */,
+				4062806B1E77BE0200E2F51C /* DHImageProcessing */,
+				406280851E77BE0200E2F51C /* DHImageProcessingTests */,
+				406280901E77BE0200E2F51C /* DHImageProcessingUITests */,
+				4062806A1E77BE0200E2F51C /* Products */,
+				472769F833000A8E843B6475 /* Pods */,
+				304DC2A8F3EBA6C9B31CA361 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4062806A1E77BE0200E2F51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406280691E77BE0200E2F51C /* DHImageProcessing.app */,
+				406280821E77BE0200E2F51C /* DHImageProcessingTests.xctest */,
+				4062808D1E77BE0200E2F51C /* DHImageProcessingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4062806B1E77BE0200E2F51C /* DHImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				4062806F1E77BE0200E2F51C /* AppDelegate.h */,
+				406280701E77BE0200E2F51C /* AppDelegate.m */,
+				406280721E77BE0200E2F51C /* ViewController.h */,
+				406280731E77BE0200E2F51C /* ViewController.m */,
+				406280751E77BE0200E2F51C /* Main.storyboard */,
+				406280781E77BE0200E2F51C /* Assets.xcassets */,
+				4062807A1E77BE0200E2F51C /* LaunchScreen.storyboard */,
+				4062807D1E77BE0200E2F51C /* Info.plist */,
+				4062806C1E77BE0200E2F51C /* Supporting Files */,
+			);
+			path = DHImageProcessing;
+			sourceTree = "<group>";
+		};
+		4062806C1E77BE0200E2F51C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4062806D1E77BE0200E2F51C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		406280851E77BE0200E2F51C /* DHImageProcessingTests */ = {
+			isa = PBXGroup;
+			children = (
+				406280861E77BE0200E2F51C /* DHImageProcessingTests.m */,
+				406280881E77BE0200E2F51C /* Info.plist */,
+			);
+			path = DHImageProcessingTests;
+			sourceTree = "<group>";
+		};
+		406280901E77BE0200E2F51C /* DHImageProcessingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				406280911E77BE0200E2F51C /* DHImageProcessingUITests.m */,
+				406280931E77BE0200E2F51C /* Info.plist */,
+			);
+			path = DHImageProcessingUITests;
+			sourceTree = "<group>";
+		};
+		472769F833000A8E843B6475 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8CC8C0DB0537C93021172D4 /* Pods-DHImageProcessing.debug.xcconfig */,
+				4502C02820206D05958FBF4E /* Pods-DHImageProcessing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406280681E77BE0200E2F51C /* DHImageProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406280961E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessing" */;
+			buildPhases = (
+				745502DEAA0F003D60D4B4D1 /* [CP] Check Pods Manifest.lock */,
+				406280651E77BE0200E2F51C /* Sources */,
+				406280661E77BE0200E2F51C /* Frameworks */,
+				406280671E77BE0200E2F51C /* Resources */,
+				A62D6E9CE30BF6761C7052AC /* [CP] Embed Pods Frameworks */,
+				933CD57C01DD6FCF084E76BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHImageProcessing;
+			productName = DHImageProcessing;
+			productReference = 406280691E77BE0200E2F51C /* DHImageProcessing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406280811E77BE0200E2F51C /* DHImageProcessingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406280991E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessingTests" */;
+			buildPhases = (
+				4062807E1E77BE0200E2F51C /* Sources */,
+				4062807F1E77BE0200E2F51C /* Frameworks */,
+				406280801E77BE0200E2F51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406280841E77BE0200E2F51C /* PBXTargetDependency */,
+			);
+			name = DHImageProcessingTests;
+			productName = DHImageProcessingTests;
+			productReference = 406280821E77BE0200E2F51C /* DHImageProcessingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4062808C1E77BE0200E2F51C /* DHImageProcessingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4062809C1E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessingUITests" */;
+			buildPhases = (
+				406280891E77BE0200E2F51C /* Sources */,
+				4062808A1E77BE0200E2F51C /* Frameworks */,
+				4062808B1E77BE0200E2F51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4062808F1E77BE0200E2F51C /* PBXTargetDependency */,
+			);
+			name = DHImageProcessingUITests;
+			productName = DHImageProcessingUITests;
+			productReference = 4062808D1E77BE0200E2F51C /* DHImageProcessingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406280611E77BE0100E2F51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = npkj;
+				TargetAttributes = {
+					406280681E77BE0200E2F51C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3AZ74EF942;
+						ProvisioningStyle = Automatic;
+					};
+					406280811E77BE0200E2F51C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 406280681E77BE0200E2F51C;
+					};
+					4062808C1E77BE0200E2F51C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 406280681E77BE0200E2F51C;
+					};
+				};
+			};
+			buildConfigurationList = 406280641E77BE0100E2F51C /* Build configuration list for PBXProject "DHImageProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406280601E77BE0100E2F51C;
+			productRefGroup = 4062806A1E77BE0200E2F51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406280681E77BE0200E2F51C /* DHImageProcessing */,
+				406280811E77BE0200E2F51C /* DHImageProcessingTests */,
+				4062808C1E77BE0200E2F51C /* DHImageProcessingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406280671E77BE0200E2F51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4062807C1E77BE0200E2F51C /* LaunchScreen.storyboard in Resources */,
+				406280791E77BE0200E2F51C /* Assets.xcassets in Resources */,
+				406280A01E77C1F900E2F51C /* Objective-C.gitignore in Resources */,
+				406280771E77BE0200E2F51C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406280801E77BE0200E2F51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062808B1E77BE0200E2F51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		745502DEAA0F003D60D4B4D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		933CD57C01DD6FCF084E76BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62D6E9CE30BF6761C7052AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406280651E77BE0200E2F51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406280741E77BE0200E2F51C /* ViewController.m in Sources */,
+				406280711E77BE0200E2F51C /* AppDelegate.m in Sources */,
+				4062806E1E77BE0200E2F51C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062807E1E77BE0200E2F51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406280871E77BE0200E2F51C /* DHImageProcessingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406280891E77BE0200E2F51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406280921E77BE0200E2F51C /* DHImageProcessingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406280841E77BE0200E2F51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406280681E77BE0200E2F51C /* DHImageProcessing */;
+			targetProxy = 406280831E77BE0200E2F51C /* PBXContainerItemProxy */;
+		};
+		4062808F1E77BE0200E2F51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406280681E77BE0200E2F51C /* DHImageProcessing */;
+			targetProxy = 4062808E1E77BE0200E2F51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		406280751E77BE0200E2F51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406280761E77BE0200E2F51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4062807A1E77BE0200E2F51C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4062807B1E77BE0200E2F51C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406280941E77BE0200E2F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		406280951E77BE0200E2F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406280971E77BE0200E2F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CC8C0DB0537C93021172D4 /* Pods-DHImageProcessing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHImageProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		406280981E77BE0200E2F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4502C02820206D05958FBF4E /* Pods-DHImageProcessing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHImageProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4062809A1E77BE0200E2F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHImageProcessingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHImageProcessing.app/DHImageProcessing";
+			};
+			name = Debug;
+		};
+		4062809B1E77BE0200E2F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHImageProcessingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHImageProcessing.app/DHImageProcessing";
+			};
+			name = Release;
+		};
+		4062809D1E77BE0200E2F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHImageProcessingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHImageProcessing;
+			};
+			name = Debug;
+		};
+		4062809E1E77BE0200E2F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHImageProcessingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = npkj.DHImageProcessingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHImageProcessing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406280641E77BE0100E2F51C /* Build configuration list for PBXProject "DHImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406280941E77BE0200E2F51C /* Debug */,
+				406280951E77BE0200E2F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406280961E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406280971E77BE0200E2F51C /* Debug */,
+				406280981E77BE0200E2F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406280991E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062809A1E77BE0200E2F51C /* Debug */,
+				4062809B1E77BE0200E2F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4062809C1E77BE0200E2F51C /* Build configuration list for PBXNativeTarget "DHImageProcessingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062809D1E77BE0200E2F51C /* Debug */,
+				4062809E1E77BE0200E2F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406280611E77BE0100E2F51C /* Project object */;
+}
