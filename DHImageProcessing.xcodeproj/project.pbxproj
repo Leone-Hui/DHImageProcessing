@@ -16,6 +16,10 @@
 		406280871E77BE0200E2F51C /* DHImageProcessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280861E77BE0200E2F51C /* DHImageProcessingTests.m */; };
 		406280921E77BE0200E2F51C /* DHImageProcessingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280911E77BE0200E2F51C /* DHImageProcessingUITests.m */; };
 		406280A01E77C1F900E2F51C /* Objective-C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4062809F1E77C1F900E2F51C /* Objective-C.gitignore */; };
+		406280A31E77C61400E2F51C /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280A21E77C61400E2F51C /* UIImage+CompressImage.m */; };
+		406280A71E77CFED00E2F51C /* UILabel+Copyable.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280A61E77CFED00E2F51C /* UILabel+Copyable.m */; };
+		406280AE1E77D05F00E2F51C /* ClickImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280AA1E77D05F00E2F51C /* ClickImage.m */; };
+		406280AF1E77D05F00E2F51C /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 406280AD1E77D05F00E2F51C /* UIViewExt.m */; };
 		709E3F804B2774860ACBFD60 /* libPods-DHImageProcessing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85616858E7DC605EE20D288 /* libPods-DHImageProcessing.a */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +57,15 @@
 		4062808D1E77BE0200E2F51C /* DHImageProcessingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHImageProcessingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406280911E77BE0200E2F51C /* DHImageProcessingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHImageProcessingUITests.m; sourceTree = "<group>"; };
 		406280931E77BE0200E2F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4062809F1E77C1F900E2F51C /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Objective-C.gitignore"; sourceTree = "<group>"; };
+		4062809F1E77C1F900E2F51C /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Objective-C.gitignore"; path = "../Objective-C.gitignore"; sourceTree = "<group>"; };
+		406280A11E77C61400E2F51C /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		406280A21E77C61400E2F51C /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		406280A51E77CFED00E2F51C /* UILabel+Copyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable.h"; sourceTree = "<group>"; };
+		406280A61E77CFED00E2F51C /* UILabel+Copyable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copyable.m"; sourceTree = "<group>"; };
+		406280A91E77D05F00E2F51C /* ClickImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickImage.h; sourceTree = "<group>"; };
+		406280AA1E77D05F00E2F51C /* ClickImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickImage.m; sourceTree = "<group>"; };
+		406280AC1E77D05F00E2F51C /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		406280AD1E77D05F00E2F51C /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		4502C02820206D05958FBF4E /* Pods-DHImageProcessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageProcessing.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing.release.xcconfig"; sourceTree = "<group>"; };
 		A8CC8C0DB0537C93021172D4 /* Pods-DHImageProcessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageProcessing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageProcessing/Pods-DHImageProcessing.debug.xcconfig"; sourceTree = "<group>"; };
 		D85616858E7DC605EE20D288 /* libPods-DHImageProcessing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHImageProcessing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +108,6 @@
 		406280601E77BE0100E2F51C = {
 			isa = PBXGroup;
 			children = (
-				4062809F1E77C1F900E2F51C /* Objective-C.gitignore */,
 				4062806B1E77BE0200E2F51C /* DHImageProcessing */,
 				406280851E77BE0200E2F51C /* DHImageProcessingTests */,
 				406280901E77BE0200E2F51C /* DHImageProcessingUITests */,
@@ -119,15 +130,21 @@
 		4062806B1E77BE0200E2F51C /* DHImageProcessing */ = {
 			isa = PBXGroup;
 			children = (
+				406280A81E77D05F00E2F51C /* ClickImage */,
+				406280AB1E77D05F00E2F51C /* UIViewExt */,
+				406280A41E77CFED00E2F51C /* UILabel+Copyable */,
 				4062806F1E77BE0200E2F51C /* AppDelegate.h */,
 				406280701E77BE0200E2F51C /* AppDelegate.m */,
 				406280721E77BE0200E2F51C /* ViewController.h */,
 				406280731E77BE0200E2F51C /* ViewController.m */,
 				406280751E77BE0200E2F51C /* Main.storyboard */,
+				406280A11E77C61400E2F51C /* UIImage+CompressImage.h */,
+				406280A21E77C61400E2F51C /* UIImage+CompressImage.m */,
 				406280781E77BE0200E2F51C /* Assets.xcassets */,
 				4062807A1E77BE0200E2F51C /* LaunchScreen.storyboard */,
 				4062807D1E77BE0200E2F51C /* Info.plist */,
 				4062806C1E77BE0200E2F51C /* Supporting Files */,
+				4062809F1E77C1F900E2F51C /* Objective-C.gitignore */,
 			);
 			path = DHImageProcessing;
 			sourceTree = "<group>";
@@ -156,6 +173,33 @@
 				406280931E77BE0200E2F51C /* Info.plist */,
 			);
 			path = DHImageProcessingUITests;
+			sourceTree = "<group>";
+		};
+		406280A41E77CFED00E2F51C /* UILabel+Copyable */ = {
+			isa = PBXGroup;
+			children = (
+				406280A51E77CFED00E2F51C /* UILabel+Copyable.h */,
+				406280A61E77CFED00E2F51C /* UILabel+Copyable.m */,
+			);
+			path = "UILabel+Copyable";
+			sourceTree = "<group>";
+		};
+		406280A81E77D05F00E2F51C /* ClickImage */ = {
+			isa = PBXGroup;
+			children = (
+				406280A91E77D05F00E2F51C /* ClickImage.h */,
+				406280AA1E77D05F00E2F51C /* ClickImage.m */,
+			);
+			path = ClickImage;
+			sourceTree = "<group>";
+		};
+		406280AB1E77D05F00E2F51C /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				406280AC1E77D05F00E2F51C /* UIViewExt.h */,
+				406280AD1E77D05F00E2F51C /* UIViewExt.m */,
+			);
+			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		472769F833000A8E843B6475 /* Pods */ = {
@@ -353,9 +397,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406280AF1E77D05F00E2F51C /* UIViewExt.m in Sources */,
 				406280741E77BE0200E2F51C /* ViewController.m in Sources */,
+				406280A31E77C61400E2F51C /* UIImage+CompressImage.m in Sources */,
 				406280711E77BE0200E2F51C /* AppDelegate.m in Sources */,
 				4062806E1E77BE0200E2F51C /* main.m in Sources */,
+				406280AE1E77D05F00E2F51C /* ClickImage.m in Sources */,
+				406280A71E77CFED00E2F51C /* UILabel+Copyable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
